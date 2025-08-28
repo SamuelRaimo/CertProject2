@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<meta charset="UTF-8">
+<title>What is your favorite genre of music?</title>
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<link rel="stylesheet" href="styles.css">
+<style>
+</style>
+<script src=""></script>
+<body>
+
+<h1 id="title">What is your favorite genre of music?</h1>
+<p id="description">Please fill out the information below:</p>
+<form id="survey-form">
+<label id="name-label">Enter name<br><input required id="name" type="text" placeholder="i.e. Sam" </label><br>
+<label id="email-label">Enter email<br><input required type="email" id="email" placeholder="i.e sam@email.com" ></label><br>
+<label id="number-label">Enter age<br><input id="number" type="number" max="12" min="1" placeholder="i.e 1" ></label> 
+  <br><select id="dropdown">
+    <option value="option1">m</option>
+    <option value="option2">f</option>
+  </select>
+
+<br><p>Are you a fan of music in general?</p>
+<input type="radio" id="yes" name="radio" value="yes">
+<label for="yes">Yes</label><br>
+
+<input type="radio" id="no" name="radio" value="no">
+<label for="no">No</label>
+
+
+
+     <p class="questions">What is your favorite genre? </p>
+        <label for="rock"><input type="checkbox" id="rock" name="rock" value="1"> Rock</label>
+        <label for="pop"><input type="checkbox" id="pop" name="pop" value="2"> Pop</label>
+        <label for="ambient"><input type="checkbox" id="ambient" name="ambient" value="3"> Electronic</label>
+  
+
+    
+        <label for="textarea"><br>Suggest more genres to add:<br><textarea id="textarea" name="textarea" cols="15px" rows="12px" placeholder="Suggest here"></textarea></label>
+  <br>
+  <button id="submit">Submit</button>
+  </form>
+
+  
+
+<div class="">
+
+</div>
+
+</body>
+</html>
